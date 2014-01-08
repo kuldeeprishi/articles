@@ -1,0 +1,50 @@
+body {
+  background: #E6E6E6;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin: 0px;
+}
+
+#title a {
+  text-decoration: none;
+  color: inherit;
+}
+.page a{
+  text-decoration: none;
+  color: black;
+}
+.page a:hover {
+  text-decoration: underline;
+  color: red;
+}
+  #title {text-align: center;}
+
+  aside {
+      width: 200px;
+      float: left;
+    }
+
+  .page {
+          width: 600px;
+          background: #FBFBEF;
+          border: 1px solid #91D2EC;
+          border-radius: 5px;
+          box-shadow: 10px 10px 20px #91D2EC;
+          padding: 20px 25px;
+          display: inline-block;
+          margin-bottom: 20px;
+          }
+
+  .wrapper {
+    margin: auto;
+    width: 900px;
+  }
+  .pub_date {
+          float: right;
+          clear: both;
+  }
+
+
+  footer img {
+    float:  right;
+  }

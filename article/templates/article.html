@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>{{article.title}}</h2>
+<p>{{article.body}}</p>
+{{article.pub_date}}
+<p>Likes: {{article.likes}}</p>
+<a href="/articles/like/{{article.id}}">Like</a><br>
+<p><a href="/articles/add_comment/{{article.id}}">Add Comment</a></p>
+{% if article.thumbnail %}
+<img src="/static/assets/{{article.thumbnail}}" width=200">
+{% endif %}
+<br><br>
+<b>COMMENTS</b>
+<hr>
+{% for c in article.comment_set.all %}
+  <p><b>{{c.name}}</b>:</p> {{c.body}}
+{% endfor %}
+
+{% endblock%}

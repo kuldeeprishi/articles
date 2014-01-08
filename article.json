@@ -1,0 +1,82 @@
+[
+{
+    "pk": 1, 
+    "model": "article.article", 
+    "fields": {
+        "body": "Test Article 1 body.\r\nThis site will rock!", 
+        "pub_date": "2013-10-18T10:56:52.431Z", 
+        "likes": 5, 
+        "title": "Test Article 1"
+    }
+},
+{
+    "pk": 2, 
+    "model": "article.article", 
+    "fields": {
+        "body": "Hi, this is the body of Test Article 2.\r\nHope you are enjoying.", 
+        "pub_date": "2013-10-18T10:57:25.032Z", 
+        "likes": 3, 
+        "title": "Test Article 2"
+    }
+},
+{
+    "pk": 3, 
+    "model": "article.article", 
+    "fields": {
+        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\r\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\r\nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\r\nconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\r\ncillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\r\nproident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+        "pub_date": "2013-10-18T09:47:23.457Z", 
+        "likes": 2, 
+        "title": "Article 3 Lorem"
+    }
+},
+{
+    "pk": 4, 
+    "model": "article.article", 
+    "fields": {
+        "body": "This article is generated from web form", 
+        "pub_date": "2013-10-18T09:47:34.141Z", 
+        "likes": 2, 
+        "title": "Test article form web form"
+    }
+},
+{
+    "pk": 1, 
+    "model": "article.comment", 
+    "fields": {
+        "body": "Nice Article", 
+        "article": 1, 
+        "pub_date": "2013-10-18T10:30:16.719Z", 
+        "name": "Kuldeep Rishi"
+    }
+},
+{
+    "pk": 2, 
+    "model": "article.comment", 
+    "fields": {
+        "body": "Nice article\r\n", 
+        "article": 1, 
+        "pub_date": "2013-10-18T10:30:53.905Z", 
+        "name": "Kuldeep Kumar Rishi"
+    }
+},
+{
+    "pk": 3, 
+    "model": "article.comment", 
+    "fields": {
+        "body": "Nice one", 
+        "article": 2, 
+        "pub_date": "2013-10-18T10:57:20.504Z", 
+        "name": "Abhishek"
+    }
+},
+{
+    "pk": 4, 
+    "model": "article.comment", 
+    "fields": {
+        "body": "Nice article\r\n", 
+        "article": 2, 
+        "pub_date": "2013-10-18T10:57:58.500Z", 
+        "name": "Kuldeep Rishi"
+    }
+}
+]
